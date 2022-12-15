@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Regression Login Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Regression Login Test</h1>
+<p>
+  Test duration: 11.853s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.herokuapp.testsuite.LoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userSholdLoginSuccessfullyWithValidCredentials
+      </td>
+  <td class="duration">
+    0.447s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter usrnametomsmithto username fieldtomsmith<br />
+                                Enter passwardSuperSecretPassword!to passward Field[[ChromeDriver: chrome on WINDOWS (6b8ca2596fffc873708131bebf34db55)] -&gt; id: password]<br />
+                                Click on Login button[[ChromeDriver: chrome on WINDOWS (6b8ca2596fffc873708131bebf34db55)] -&gt; xpath: //i[contains(text(),&apos;Login&apos;)]]<br />
+                                Verify message[[ChromeDriver: chrome on WINDOWS (6b8ca2596fffc873708131bebf34db55)] -&gt; xpath: //h2[text()=&apos; Secure Area&apos;]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThePasswordErrorMessage
+      </td>
+  <td class="duration">
+    0.465s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter usrnametomsmithto username fieldtomsmith<br />
+                                Enter passwardSuperSecretPasswordto passward Field[[ChromeDriver: chrome on WINDOWS (0a68d7ee39a70a7a4f73b12845dc93f1)] -&gt; id: password]<br />
+                                Click on Login button[[ChromeDriver: chrome on WINDOWS (0a68d7ee39a70a7a4f73b12845dc93f1)] -&gt; xpath: //i[contains(text(),&apos;Login&apos;)]]<br />
+                                Verify error message[[ChromeDriver: chrome on WINDOWS (0a68d7ee39a70a7a4f73b12845dc93f1)] -&gt; xpath: //div[@class = &apos;flash error&apos;]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyTheUsernameErrorMessage
+      </td>
+  <td class="duration">
+    0.488s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter usrnametomsmith1to username fieldtomsmith1<br />
+                                Enter passwardSuperSecretPassword!to passward Field[[ChromeDriver: chrome on WINDOWS (3d902a6a57044e5829851684942b8f71)] -&gt; id: password]<br />
+                                Click on Login button[[ChromeDriver: chrome on WINDOWS (3d902a6a57044e5829851684942b8f71)] -&gt; xpath: //i[contains(text(),&apos;Login&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
